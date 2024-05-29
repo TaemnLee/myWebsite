@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    font-family: 'Hero';
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding: 24px 96px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 8px;
+}
+
+.second {
+    text-align: left;
+    padding: 48px;
+}
+
+.secondH {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondC, .ul{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.second .button {
+    border: none;
+}
+
+.infoh {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.infoc {
+    display: flex;
+    flex-direction: row;
+}
+
+.content2 {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 36px;
+}
+
+ul {
+    list-style: none;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 48px 96px;
+    padding: 24px;
+    text-align: left;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+.footerH {
+    font-weight: bold;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
